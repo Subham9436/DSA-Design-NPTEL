@@ -6,7 +6,7 @@ void Pattern(int n){
     
     for(int i=0;i<n;i++){
         // No.of columns
-       for(char ch='A';ch<'A'+(n-i);ch++){
+       for(char ch='A';ch<'A'+i;ch++){
             cout << ch;
             
         }
